@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  align-items: center;
+  background-color: lightgray;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.article-link {
+  color: #29a329;
+  text-decoration: none;
+}
+
+.article-link:hover {
+  color: gray;
+}
+
+.form {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+.header {
+  background-color: #29a329;
+}
+
+.main-title {
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+}
+
+.results-list {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 0.5vw;
+  list-style: none;
+  margin-bottom: 1vw;
+  padding: 0.5vw;
+}
+
+.search-image {
+  border: 1px solid #196719;
+  border-radius: 0.75vw;
+  width: 1.5vw;
+}
+
+.search-results {
+  margin: 1vw 30vw 1vw 30vw;
+}
+
+.wikipedia-image {
+  padding: 0.5vw;
+  width: 12vw;
+}
