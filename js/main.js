@@ -33,8 +33,8 @@ function displayResults (apiResults) {
   }
   // Populate the list with search results
   for (let i = 0; i < apiResults[1].length; i++) {
-    $results.append('<li class="results-list"><a class="article-link" href=' +
-    apiResults[3][i] + '>' + apiResults[1][i] +
-    '</a><p>' + apiResults[2][i] + '</p></li>')
+    $results.append('<li class="results-list"><div class="article-heading">' +
+    '<a class="article-link" href=' + apiResults[3][i] + '>' + apiResults[1][i] +
+    '</a></div><p>' + apiResults[2][i] + '</p></li>')
   }
 }

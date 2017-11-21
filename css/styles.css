@@ -8,6 +8,12 @@ body {
   text-align: center;
 }
 
+.article-heading {
+  border-bottom: 1px lightgray solid;
+  margin-bottom: 15px;
+  padding: 0 5px 5px 5px;
+}
+
 .article-link {
   color: #29a329;
   text-decoration: none;
@@ -19,8 +25,8 @@ body {
 
 .form {
   border-radius: 5px;
-  height: 30px;
-  width: 200px;
+  height: 40px;
+  width: 260px;
 }
 
 .header {
@@ -39,11 +45,13 @@ body {
   list-style: none;
   margin-bottom: 1vw;
   padding: 0.5vw;
+  text-align: left;
 }
 
 .search-image {
   border: 1px solid #196719;
   border-radius: 0.75vw;
+  margin-left: -2vw;
   width: 1.5vw;
 }
 
